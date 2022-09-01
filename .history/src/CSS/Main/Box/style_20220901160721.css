@@ -1,0 +1,25 @@
+.section-box{
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+
+.box{
+    height: 50vh;
+    width: 100%;
+    margin-bottom:20px;
+    max-width: 30vw;
+    background-color:red;
+}
+
+.box-text{
+    background-color:blue;
+    height: 15vh;
+    
+}
+
+.obj{
+    background-color:green;
+    height: 5vh;
+    width:5vw;
+}

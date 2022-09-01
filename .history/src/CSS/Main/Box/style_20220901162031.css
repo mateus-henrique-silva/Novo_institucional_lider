@@ -1,0 +1,37 @@
+.section-box {
+  width: 100%;
+  justify-content: space-around;
+
+  display: flex;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+ 
+  justify-content: flex-end;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+  margin-bottom: 20px;
+  max-width: 30vw;
+  background-color: red;
+}
+
+.box-inter {
+  background-color: blue;
+  height: 40vh;
+ 
+  width: 50vh;
+
+}
+
+.obj {
+  background-color: green;
+  height: 6vh;
+  margin-top:-10px;
+  width: 5vw;
+
+
+}

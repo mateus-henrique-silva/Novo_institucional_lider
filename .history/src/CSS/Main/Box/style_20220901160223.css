@@ -1,0 +1,12 @@
+.section-box{
+    width: 100%;
+    justify-content: s
+    display: flex;
+}
+
+.box{
+    height: 20vh;
+    width: 100%;
+    max-width: 30vw;
+    background-color:red;
+}

@@ -1,0 +1,52 @@
+.section-box {
+  width: 100%;
+  justify-content: space-around;
+  
+  display: flex;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+ 
+  justify-content: flex-end;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+  margin-bottom: 20px;
+  
+  background-color: red;
+}
+
+@media(max-width:770px){
+  .section-box {
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+  .box-inter {
+    background-color: blue;
+width: 500px, i !important;
+  
+  }
+}
+
+.box-inter {
+  background-color: blue;
+  height: 40vh;
+ max-width: 50vw;
+  width: 100%;
+
+}
+
+.obj {
+  background-color: green;
+  height: 8vh;
+  margin-top:-25px;
+  width: 5vw;
+
+
+}

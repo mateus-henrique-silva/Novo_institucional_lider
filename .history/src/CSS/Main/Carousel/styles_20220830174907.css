@@ -1,0 +1,40 @@
+.swiper {
+    height: 100%!important;
+    
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    height: 100%!important;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (max-width: 450px) {
+    .swiper {
+      height: 270px;
+    }
+  }
+
+  .project-img img{
+    width: 100%;
+  }
+
+
+
+  .swiper-pagination-bullet{
+    color: white !important;
+    /* margin-top:-10px!important; */
+    background-color:white !important;
+  }
+  .swiper-pagination{
+    
+  }
+  
+
+  /* 
+    largura => 3840
+    Altura => 420
+  
+  */

@@ -1,0 +1,10 @@
+.section-box{
+    wi
+}
+
+.box{
+    height: 20vh;
+    width: 100%;
+    max-width: 30vw;
+    background-color:red;
+}

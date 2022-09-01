@@ -1,0 +1,21 @@
+.swiper {
+    height: 500px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    height: 100%!important;
+    align-items: start;
+    justify-content: center;
+  }
+  
+  @media (max-width: 450px) {
+    .swiper {
+      height: 270px;
+    }
+  }
+
+  .project-img img{
+    width: 100%;
+  }
