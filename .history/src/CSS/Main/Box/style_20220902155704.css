@@ -38,7 +38,7 @@
 
 @media (max-width: 480px) {
   .box-inter {
-    height: 170px !important;
+    height: 120px !important;
     width: 170px !important;
     /* width: 100%; */
   }
@@ -57,7 +57,7 @@
 
 .box-inter {
   background-color: white;
-  height: 200px;
+  height: 250px;
   width: 250px;
   -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.37);
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.37);

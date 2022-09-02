@@ -38,7 +38,7 @@
 
 @media (max-width: 480px) {
   .box-inter {
-    height: 170px !important;
+    height: 120px !important;
     width: 170px !important;
     /* width: 100%; */
   }
@@ -62,7 +62,7 @@
   -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.37);
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.37);
   display:flex;
- 
+  padding
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -70,14 +70,6 @@
   /* width: 100%; */
 }
 
-.box-inter h1{
-  margin-top:20px;
-  font-size: clamp(1em, 1em + 1vw, 1.5em);
-}
-
-.box p{
-  font-size: clamp(1em, 1em + 0.5vw, 0.5em);
-}
 .obj {
   background-color: #a71319;
   height: 65px;
