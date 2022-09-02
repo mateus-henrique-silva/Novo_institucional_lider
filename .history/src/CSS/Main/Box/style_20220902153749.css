@@ -39,8 +39,8 @@
 @media(max-width: 480px) {
   .box-inter {
     background-color: blue;
-    height: 120px!important;
-    width: 170px!important;
+    height: 100px;
+    width: 150px;
     /* width: 100%; */
   }
 

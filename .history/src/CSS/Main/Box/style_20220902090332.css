@@ -36,24 +36,27 @@
   }
 }
 
-@media(max-width: 480px) {
+@media (max-width: 480px) {
   .box-inter {
     background-color: blue;
-    height: 120px!important;
-    width: 170px!important;
+    height: 100px;
+    width: 150px;
     /* width: 100%; */
   }
 
   .obj {
-  
-    height: 45px!important;
+    background-color: #a71319;
+    height: 45px;
 
-  
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: -35px;
-    width: 45px!important;
+    width: 45px;
   }
 
-   .obj img {
+  .obj img {
     width: 20px!important;
   }
 }

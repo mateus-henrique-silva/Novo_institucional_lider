@@ -40,7 +40,7 @@
   .box-inter {
     background-color: blue;
     height: 120px!important;
-    width: 170px!important;
+    width: 1px!important;
     /* width: 100%; */
   }
 
