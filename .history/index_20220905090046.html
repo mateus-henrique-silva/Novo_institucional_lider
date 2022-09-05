@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0"
+    />
+    <link rel="stylesheet" href="./src/CSS/Global.css" />
+    <link rel="stylesheet" href="./src/CSS/Header/style.css" />
+    <link rel="stylesheet" href="./src/CSS/Main/style.css" />
+    <link rel="stylesheet" href="./src/CSS/Main/Carousel/styles.css" />
+    <link rel="stylesheet" href="./src/CSS/Main/Box/style.css" />
+    <link rel="stylesheet" href="./src/CSS/Main/Products/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <title>Líder Brasil</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="logo"
+          ><img src="./src/Assets/Logo/lb.png" width="50" alt=""
+        /></a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#network index.html">Inicio</a></li>
+          <li><a href="#map-container">Cobertura</a></li>
+          <li><a href="#container">Planos</a></li>
+        </ul>
+        <ul>
+          <li style="list-style: none; font-size: 10px">
+            <a
+              href="#"
+              style="
+                font-size: 12px;
+                padding: 10px;
+                font-family: arial;
+                color: white;
+              "
+              onclick="openForm()"
+              class="contact-header"
+              >Entre em contato</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img
+                  src="./src/Assets/img/carrossel/desktop/drop-desktop.png"
+                  alt="Foto 01"
+                />
+              </div>
+              <div class="project-img" id="mobile-img">
+                <img
+                  src="./src/Assets/img/carrossel/mobile/drop-mobile.png"
+                  alt="Foto 03"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img
+                  src="./src/Assets/img/carrossel/desktop/escada-desktop.png"
+                  alt="Foto 01"
+                />
+              </div>
+              <div class="project-img" id="mobile-img">
+                <img
+                  src="./src/Assets/img/carrossel/mobile/escada-mobile.png"
+                  alt="Foto 03"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./src/Assets/img/teste6.png" alt="Foto 01" />
+              </div>
+              <div class="project-img" id="mobile-img">
+                <img src="./src/Assets/img/foto_03.png" alt="Foto 03" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section>
+        <div class="section-box">
+          <div class="box">
+            <div class="box-inter">
+              <h1>Sem Fidelidade</h1>
+              <p>---</p>
+
+              <p>Se você não gostar do serviço cancele sem taxas ou multas.</p>
+            </div>
+
+            <div class="obj">
+              <img
+                src="./src/Assets/img/icons/unlock.svg"
+                alt="arrowup"
+                srcset=""
+              />
+            </div>
+          </div>
+          <div class="box">
+            <div class="box-inter">
+              <h1>Sem Fidelidade</h1>
+              <p>---</p>
+
+              <p>Se você não gostar do serviço cancele sem taxas ou multas.</p>
+            </div>
+
+            <div class="obj">
+              <img
+                src="./src/Assets/img/icons/award.svg"
+                alt="arrowup"
+                srcset=""
+              />
+            </div>
+          </div>
+          <div class="box">
+            <div class="box-inter">
+              <h1>Sem Fidelidade</h1>
+              <p>---</p>
+
+              <p>Se você não gostar do serviço cancele sem taxas ou multas.</p>
+            </div>
+
+            <div class="obj">
+              <img
+                src="./src/Assets/img/icons/chevrons-up.svg"
+                alt="arrowup"
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="background">
+          <div class="products"></div>
+
+          <div class="products"></div>
+          <div class="products"></div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+        },
+      });
+    </script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./src/Scripts/Carousel/scripts.js"></script>
+    <script src="./src/Scripts/Mobile/scripts.js"></script>
+    <script src="./src/Scripts/Global.js"></script>
+  </body>
+</html>

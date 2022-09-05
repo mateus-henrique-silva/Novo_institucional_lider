@@ -1,0 +1,22 @@
+.background{
+    width: 100%;
+    background: url("../../../Assets/img/Background/medio.jpg") no-repeat center fixed;
+    height: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+.background ul {
+    display: flex;
+    width: 100%;
+}
+
+.products{
+    margin: 30px;
+    height: 300px;
+    width: 200px;
+    background-color: red;
+}
+
