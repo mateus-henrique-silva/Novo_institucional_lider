@@ -1,0 +1,142 @@
+.background {
+  width: 100%;
+  background: url("../../../Assets/img/Background/back-pd.jpg") no-repeat center
+    fixed;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
+.background ul {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  /* width: 100px; */
+}
+.background img {
+  display: none;
+}
+
+.background ul li .products .img {
+  display: flex;
+}
+
+.products {
+  margin: 30px;
+
+    border-radius:18px;
+    
+
+  
+  height: 300px;
+  width: 200px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2) !important;
+
+
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  transition: 0.5s all;
+}
+
+.products div h2 {
+  margin-bottom: 15px;
+   color:white;
+  transition:2s;
+}
+.products:hover .back-radient {
+  align-items: center;
+  justify-content: center;
+  transition:2s;
+}
+.products:hover div h2 {
+ 
+  display: none;
+}
+@media (max-width: 600px) {
+  .background .img {
+    position: absolute;
+    margin-top: 170px;
+    display: flex;
+    justify-content: flex-end;
+    animation: mymove 0.8s infinite;
+  }
+
+  @keyframes mymove {
+    from {
+      left: 280px;
+    }
+    to {
+      left: 300px;
+    }
+  }
+}
+
+.products button {
+  background-color: black;
+  display: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.7s;
+  padding: 8px 25px 8px;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+.products:hover {
+
+}
+
+.products:hover button {
+  background-color: black;
+  display: flex;
+
+  color: white;
+  cursor: pointer;
+  padding: 8px 25px 8px;
+}
+.back-radient{
+  width: 100%;
+height: 100%;
+
+transition: 0.7s;
+display: flex;
+align-items: flex-end;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.0962963) 50%, #000000 100%);
+box-shadow: 5px 6px 11px rgba(0, 0, 0, 0.45);
+border-radius: 15px;
+}
+
+#products-one{
+  background: url("../../../Assets/img/Background/products/db.png")
+  no-repeat center!important;
+  background-size: 100%!important;
+}
+
+#products-two{
+  background: url("../../../Assets/img/Background/products/alarme.png")
+  no-repeat center!important;
+  background-size: 100%!important;
+}
+
+
+#products-three{
+  background: url("../../../Assets/img/Background/products/incendio.png")
+  no-repeat center!important;
+  background-size: 100%!important;
+}
+
+#products-four{
+  background: url("../../../Assets/img/Background/products/monitoramento.png")
+  no-repeat center!important;
+  background-size: 100%!important;
+
+  
+}
+
