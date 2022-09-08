@@ -31,7 +31,7 @@ ul.list-branding li img {
     margin-right: 30px;
     animation: mymovetwo 0.8s infinite;
   }
-@keyframes mymovetwo {
+@keyframes mymove {
     to{
         margin-right:10px;
     }
