@@ -1,0 +1,10 @@
+.list-products {
+  height: 100%;
+  width: 100%;
+  max-width: 100vw;
+}
+
+.card-products {
+  width: 245px;
+  height: 372px;
+}

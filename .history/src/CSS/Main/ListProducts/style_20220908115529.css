@@ -1,0 +1,90 @@
+.list-products {
+  height: 100%;
+  width: 100%;
+  flex-wrap: ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100vw;
+
+}
+
+.card-products {
+  background: #0c0c0c;
+  width: 210px;
+  margin: 25px;
+  height: 260px;
+}
+.card-products .card-products-img{
+ display: flex;
+ background-color: white;
+ justify-content:center;
+ align-items:center;
+ width: 100%;
+ height: 70%;
+}
+.card-products .card-products-text p{
+    width: 100%;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card-products .card-products-img img{
+    width: 150px;
+    height:150px;
+
+}
+
+.card-products .card-products-text{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+.list-main{
+
+}
+
+
+/* Lista Plus */
+
+
+
+.card-products-plus {
+    background: #B41016;
+    cursor: pointer;
+    width: 210px;
+    margin: 25px;
+    height: 260px;
+  }
+  .card-products-plus .card-products-plus-img{
+   display: flex;
+   background: #D81F26;
+
+   justify-content:center;
+   align-items:center;
+   width: 100%;
+   height: 70%;
+  }
+  .card-products-plus .card-products-plus-text p{
+      width: 100%;
+      color: white;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .card-products-plus .card-products-plus-img img{
+      width: 150px;
+      height:150px;
+  
+  }
+  
+  .card-products-plus .card-products-plus-text{
+      height: 30%;
+      width: 100%;
+      display: flex;
+      justify-content:center;
+  }

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0"
+    />
+    <link rel="stylesheet" href="./src/CSS/Global.css" />
+    <link rel="stylesheet" href="./src/CSS/Header/style.css" />
+    <link rel="stylesheet" href="./src/CSS/Main/style.css" />
+    <link rel="stylesheet" href="./src/CSS/Main/Carousel/styles.css" />
+    <link rel="stylesheet" href="./src/CSS/Main/Box/style.css" />
+    <link rel="stylesheet" href="./src/CSS/Main/Products/style.css" />
+    <link rel="stylesheet" href="./src/CSS/Main/ListProducts/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <title>Líder Brasil</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="logo"
+          ><img src="./src/Assets/Logo/lb.png" width="50" alt=""
+        /></a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#network index.html">Inicio</a></li>
+          <li><a href="#map-container">Cobertura</a></li>
+          <li><a href="#container">Planos</a></li>
+        </ul>
+        <ul>
+          <li style="list-style: none; font-size: 10px">
+            <a
+              href="#"
+              style="
+                font-size: 12px;
+                padding: 10px;
+                font-family: arial;
+                color: white;
+              "
+              onclick="openForm()"
+              class="contact-header"
+              >Entre em contato</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img
+                  src="./src/Assets/img/carrossel/desktop/drop-desktop.png"
+                  alt="Foto 01"
+                />
+              </div>
+              <div class="project-img" id="mobile-img">
+                <img
+                  src="./src/Assets/img/carrossel/mobile/drop-mobile.png"
+                  alt="Foto 03"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img
+                  src="./src/Assets/img/carrossel/desktop/escada-desktop.png"
+                  alt="Foto 01"
+                />
+              </div>
+              <div class="project-img" id="mobile-img">
+                <img
+                  src="./src/Assets/img/carrossel/mobile/escada-mobile.png"
+                  alt="Foto 03"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./src/Assets/img/teste6.png" alt="Foto 01" />
+              </div>
+              <div class="project-img" id="mobile-img">
+                <img src="./src/Assets/img/foto_03.png" alt="Foto 03" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section>
+        <div class="section-box">
+          <!-- card 1 -->
+
+          <ul>
+            <li class="box">
+              <div class="box-inter">
+                <img src="./src/Assets/img/icons/iconsBox/shield.svg" alt="" />
+                <h1>Sem Fidelidade</h1>
+              </div>
+
+              <!-- <div class="obj">
+                <img
+                  src="./src/Assets/img/icons/unlock.svg"
+                  alt="arrowup"
+                  srcset=""
+                />
+              </div> -->
+            </li>
+            <!-- card 2 -->
+            <li class="box">
+              <div class="box-inter">
+                <img src="./src/Assets/img/icons/iconsBox/layers.svg" alt="" />
+                <h1>Sem Fidelidade</h1>
+              </div>
+
+              <!-- <div class="obj">
+                <img
+                  src="./src/Assets/img/icons/unlock.svg"
+                  alt="arrowup"
+                  srcset=""
+                />
+              </div> -->
+            </li>
+            <!-- card 3 -->
+            <li class="box">
+              <div class="box-inter">
+                <img src="./src/Assets/img/icons/iconsBox/box.svg" alt="" />
+                <h1>Sem Fidelidade</h1>
+              </div>
+
+              <!-- <div class="obj">
+                <img
+                  src="./src/Assets/img/icons/unlock.svg"
+                  alt="arrowup"
+                  srcset=""
+                />
+              </div> -->
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="background">
+          <img
+            class="img"
+            src="./src/Assets/img/icons/aBlack.svg"
+            alt=""
+            srcset=""
+          />
+
+          <ul>
+            <li>
+              <div class="products" id="products-one">
+                <div class="back-radient">
+                  <button>Saiba Mais</button>
+                  <div>
+                    <h2>Materiais p/ Provedores de internet</h2>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="products" id="products-two">
+                <div class="back-radient">
+                  <button>Saiba Mais</button>
+                  <div>
+                    <h2>Sistemas de Alarme</h2>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="products" id="products-three">
+                <div class="back-radient">
+                  <button>Saiba Mais</button>
+                  <div>
+                    <h2>Incêndio</h2>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="products" id="products-four">
+                <div class="back-radient">
+                  <button>Saiba Mais</button>
+                  <div>
+                    <h2>Sistemas de monitoramento e câmeras</h2>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="list-main">
+          <div class="list-products">
+            <div class="card-products">
+              <div class="card-products-img">
+                <img
+                  src="./src/Assets/img/Products/CFTV/c1c.png"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="card-products-text">
+                <p>texto texto texto</p>
+              </div>
+            </div>
+
+            <div class="card-products">
+              <div class="card-products-img">
+                <img
+                  src="./src/Assets/img/Products/CFTV/c1c.png"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="card-products-text">
+                <p>texto texto texto</p>
+              </div>
+            </div>
+            <div class="card-products">
+              <div class="card-products-img">
+                <img
+                  src="./src/Assets/img/Products/CFTV/c1c.png"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="card-products-text">
+                <p>texto texto texto</p>
+              </div>
+            </div>
+            <div class="card-products">
+              <div class="card-products-img">
+                <img
+                  src="./src/Assets/img/Products/CFTV/c1c.png"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="card-products-text">
+                <p>texto texto texto</p>
+              </div>
+            </div>
+            <div class="card-products">
+              <div class="card-products-img">
+                <img
+                  src="./src/Assets/img/Products/CFTV/c1c.png"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="card-products-text">
+                <p>texto texto texto</p>
+              </div>
+            </div>
+            <div class="card-products">
+              <div class="card-products-img">
+                <img
+                  src="./src/Assets/img/Products/CFTV/c1c.png"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="card-products-text">
+                <p>texto texto texto</p>
+              </div>
+            </div>
+            <div class="card-products">
+              <div class="card-products-img">
+                <img
+                  src="./src/Assets/img/Products/CFTV/c1c.png"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="card-products-text">
+                <p>texto texto texto</p>
+              </div>
+            </div>
+            <div class="card-products">
+              <div class="card-products-img">
+                <img
+                  src="./src/Assets/img/Products/CFTV/c1c.png"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="card-products-text">
+                <p>texto texto texto</p>
+              </div>
+            </div>
+            <div class="card-products">
+              <div class="card-products-img">
+                <img
+                  src="./src/Assets/img/Products/CFTV/c1c.png"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="card-products-text">
+                <p>texto texto texto</p>
+              </div>
+            </div>
+        
+
+            <div class="card-products-plus">
+              <div class="card-products-plus-img">
+                <img
+                  src="./src/Assets/img/Products/Plus/arrowCircle.svg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="card-products-plus-text">
+                <p>VER MAIS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        div.car
+      </section>
+    </main>
+    <footer></footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./src/Scripts/Carousel/scripts.js"></script>
+    <script src="./src/Scripts/Mobile/scripts.js"></script>
+    <script src="./src/Scripts/Global.js"></script>
+  </body>
+</html>

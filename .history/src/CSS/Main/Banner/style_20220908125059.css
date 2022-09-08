@@ -1,0 +1,66 @@
+.card-banner {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+}
+
+.banner-one {
+  width: 628.4px;
+  height: 292px;
+  margin: 25px;
+  /* Degrade de Imagem */
+  background: url("../../../Assets/img/Banner/Rectangle\ 24.svg") no-repeat
+    center;
+  background-size: 100%;
+
+  border-radius: 15px;
+}
+
+.banner-two {
+  margin: 25px;
+  width: 628.4px;
+  height: 292px;
+  background: url("../../../Assets/img/Banner/Rectangle\ 23.svg") no-repeat
+    center;
+  border-radius: 15px;
+  background-size: 100%;
+  /* Degrade de Imagem */
+}
+
+.banner {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.0962963) 50%,
+    #000000 100%
+  );
+ display: flex;
+ flex-direction: column;
+justify-content: flex-end;
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+.banner h2, p{
+    
+    text-transform: uppercase!important;
+    color: white;
+    margin:2px;
+   
+    margin-left:40px ;
+}
+@media (max-width: 467px) {
+  .banner-one {
+    height: 150px;
+
+    /* Degrade de Imagem */
+  }
+
+  .banner-two {
+    height: 150px;
+
+    /* Degrade de Imagem */
+  }
+}
