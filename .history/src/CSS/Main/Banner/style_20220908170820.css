@@ -106,17 +106,3 @@ justify-content: flex-end;
     margin-left:40px ;
 }
 }
-
-
-.banner-three{
-  width: 100%;
-  max-width: 100vw;
-  display: flex ;
-  justify-content: center;
-  
-}
-
-.banner-three img{
-  margin:30px;
-  width:90%;
-}

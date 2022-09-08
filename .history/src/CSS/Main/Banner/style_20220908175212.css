@@ -112,11 +112,4 @@ justify-content: flex-end;
   width: 100%;
   max-width: 100vw;
   display: flex ;
-  justify-content: center;
-  
-}
-
-.banner-three img{
-  margin:30px;
-  width:90%;
 }

@@ -1,0 +1,38 @@
+ul.list-branding {
+  width: 100%;
+  /* max-width: 100vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+}
+
+ul.list-branding li img {
+  width: 200px;
+  margin: 30px;
+}
+
+
+.arrowbd {
+  
+  color: white;
+  display: none;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+
+
+@media (max-width: 1050px) {
+  .arrowbd {
+    display: flex;
+  }
+  .arrowbd img {
+    margin-right: 20px;
+    animation: mymove 0.8s infinite;
+  }
+
+  ul.list-branding {
+    justify-content: flex-start;
+  }
+}
