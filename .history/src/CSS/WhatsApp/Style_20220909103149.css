@@ -17,12 +17,10 @@
 }
 
 @media (max-width: 800px) {
-  .img-div {
+  .img_div {
     display: flex;
-    margin-right: 10px;
-
   }
-  .img-div-prime {
+  .img_div_prime {
     display: none ;
   }
  

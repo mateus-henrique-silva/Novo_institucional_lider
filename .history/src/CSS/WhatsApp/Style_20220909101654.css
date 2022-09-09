@@ -1,4 +1,4 @@
-.div-fixa-whats {
+#div_fixa_whats {
   position: fixed;
   margin: 15px;
   width: 98%;
@@ -12,18 +12,12 @@
   z-index: 5000;
   bottom: 0px;
 }
-.img-div {
-  display: none;
+.img_div{
+    display: none;
 }
 
-@media (max-width: 800px) {
-  .img-div {
-    display: flex;
-    margin-right: 10px;
-
-  }
-  .img-div-prime {
-    display: none ;
-  }
- 
+@media(max-width: 800px){
+    .img_div{
+        display: fle;
+    }
 }

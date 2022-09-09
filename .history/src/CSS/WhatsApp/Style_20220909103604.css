@@ -19,8 +19,7 @@
 @media (max-width: 800px) {
   .img-div {
     display: flex;
-    margin-right: 10px;
-
+    
   }
   .img-div-prime {
     display: none ;
