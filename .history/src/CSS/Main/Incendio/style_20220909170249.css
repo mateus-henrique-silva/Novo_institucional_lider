@@ -26,7 +26,7 @@
   text-align: center;
 }
 .banner-ignite h2 {
-  font-size: 22px;
+  font-size: 15px;
   width: 100%;
   margin-left: 0;
   margin-bottom: 50px;
@@ -88,6 +88,6 @@
     background-size: 500px;
   }
 
-  .banner-eighth:hover {
+  .banner-four:hover {
     background-size: 500px;
   }

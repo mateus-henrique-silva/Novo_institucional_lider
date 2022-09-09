@@ -1,0 +1,67 @@
+.banner-ignite {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+}
+
+.banner-four {
+    width: 400px;
+    height: 350px;
+  margin: 25px;
+  /* Degrade de Imagem */
+  background: url("../../../Assets/img/Banner/IMAGEM\ 2.svg") no-repeat
+    center;
+  background-size: 100%;
+
+ 
+}
+
+.banner-five {
+    width: 400px;
+    height: 350px;
+  margin: 25px;
+  /* Degrade de Imagem */
+  background: url("../../../Assets/img/Banner/IMAGEM.svg") no-repeat
+    center;
+  background-size: 100%;
+  text-align: center;
+
+
+  
+}
+.banner-ignite h2{
+    font-size: 15px;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+.banner-ignite .banner {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0962963) 50%,
+      #000000 100%
+    );
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+   border-radius: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+
+  .banner-five:hover{
+    background-size: 500px;
+}
+
+.banner-four:hover{
+    background-size: 500px;
+}
+
+.banner-six{
+    
+}

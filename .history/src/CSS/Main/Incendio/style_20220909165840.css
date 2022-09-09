@@ -26,7 +26,7 @@
   text-align: center;
 }
 .banner-ignite h2 {
-  font-size: 22px;
+  font-size: 15px;
   width: 100%;
   margin-left: 0;
   margin-bottom: 50px;
@@ -59,7 +59,7 @@
   height: 350px;
   margin: 25px;
   /* Degrade de Imagem */
-  background: url("../../../Assets/img/Banner/IMAGEM\ 4.svg") no-repeat center;
+  background: url("../../../Assets/img/Banner/IMAGEM\ 2.svg") no-repeat center;
   background-size: 100%;
 }
 
@@ -68,7 +68,7 @@
   height: 350px;
   margin: 25px;
   /* Degrade de Imagem */
-  background: url("../../../Assets/img/Banner/IMAGEM\ 5.svg") no-repeat center;
+  background: url("../../../Assets/img/Banner/IMAGEM\ 2.svg") no-repeat center;
   background-size: 100%;
 }
 
@@ -77,17 +77,6 @@
   height: 350px;
   margin: 25px;
   /* Degrade de Imagem */
-  background: url("../../../Assets/img/Banner/IMAGEM\ 6.svg") no-repeat center;
+  background: url("../../../Assets/img/Banner/") no-repeat center;
   background-size: 100%;
 }
-.banner-six:hover {
-    background-size: 500px;
-  }
-  
-  .banner-seven:hover {
-    background-size: 500px;
-  }
-
-  .banner-eighth:hover {
-    background-size: 500px;
-  }

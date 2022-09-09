@@ -9,11 +9,7 @@
   max-width: 100vw;
 
 }
-@media(max-width: 900px){
-.list-products{
-    justify-content: flex-start!important;
-}
-}
+@media
 
 .card-products {
   background: #0c0c0c;
