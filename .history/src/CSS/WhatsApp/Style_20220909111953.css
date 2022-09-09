@@ -11,7 +11,6 @@
   margin-top: 300px;
   z-index: 5000;
   bottom: 0px;
-  margin-left: 85%;
 }
 .img-div {
   display: none;
@@ -24,13 +23,8 @@
 
     
   }
-  .div-fixa-whats {
-margin-left: 75%;
-  }
   .img-div-prime {
     display: none ;
   }
  
 }
-
-
