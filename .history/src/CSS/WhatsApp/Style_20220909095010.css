@@ -1,0 +1,10 @@
+#div_fixa_ {
+       
+    position:fixed; 
+    margin:15px;
+
+  flex-wrap: wrap;
+    margin-top: 300px;
+    z-index:5000;
+    bottom: 0px;
+}
