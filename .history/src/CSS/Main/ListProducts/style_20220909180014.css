@@ -12,7 +12,7 @@
 @media(max-width: 900px){
 .list-products{
     justify-content: flex-start!important;
-    flex-wrap:nowrap;
+    flex-wrap:no
 }
 }
 
