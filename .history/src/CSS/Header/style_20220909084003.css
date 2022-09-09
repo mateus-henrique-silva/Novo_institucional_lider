@@ -57,7 +57,8 @@ transition: 1s !important;
 
 .nav-list li:last-child:hover{
   border: 1px solid #D81F26;
-
+  background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(216,31,38,1) 100%);
 }
 .nav-list li {
   letter-spacing: 0px;
@@ -93,18 +94,6 @@ transition: 1s !important;
 @media (max-width: 950px) {
   body {
     overflow-x: hidden;
-  }
-
-  .nav-list li:last-child{
-    padding: 0;
-    border: 0;
-  border-radius: 0;
-  transition: 1s !important;
-  }
-  
-  .nav-list li:last-child:hover{
-    border: 0;
-  
   }
 
   .nav-list {

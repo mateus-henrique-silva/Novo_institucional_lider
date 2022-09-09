@@ -1,0 +1,5 @@
+function fazGet(ur){
+    
+}
+
+functi

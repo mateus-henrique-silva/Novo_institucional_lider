@@ -56,7 +56,7 @@ transition: 1s !important;
 }
 
 .nav-list li:last-child:hover{
-  border: 1px solid #D81F26;
+  border: 1px solid white;
 
 }
 .nav-list li {
