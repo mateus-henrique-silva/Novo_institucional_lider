@@ -1,0 +1,45 @@
+.banner-ignite {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+}
+
+.banner-four {
+    width: 623px;
+    height: 691px;
+  margin: 25px;
+  /* Degrade de Imagem */
+  background: url("../../../Assets/img/Banner/IMAGEM\ 2.svg") no-repeat
+    center;
+  background-size: 100%;
+
+ 
+}
+
+.banner-five {
+    width: 623px;
+    height: 691px;
+  margin: 25px;
+  /* Degrade de Imagem */
+  background: url("../../../Assets/img/Banner/IMAGEM.svg") no-repeat
+    center;
+  background-size: 100%;
+
+  
+}
+.banner-ignite .banner {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0962963) 50%,
+      #000000 100%
+    );
+   display: flex;
+   flex-direction: column;
+  justify-content: flex-end;
+   border-radius: 0px;
+    width: 100%;
+    height: 100%;
+  }
