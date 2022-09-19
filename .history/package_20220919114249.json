@@ -1,0 +1,20 @@
+{
+  "name": "novo_institucional_lider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"node "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateus-henrique-silva/Novo_institucional_lider.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateus-henrique-silva/Novo_institucional_lider/issues"
+  },
+  "homepage": "https://github.com/mateus-henrique-silva/Novo_institucional_lider#readme"
+}
