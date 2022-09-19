@@ -9,5 +9,4 @@ function getUrl() {
     .catch((error) => {
       console.log(error);
     });
-}
-getUrl();
+

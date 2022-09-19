@@ -5,7 +5,7 @@ const app = express();
 
 app.use(cors());
 
-app.get("/produtos", async (request, response) => {
+app.get("/produtos", (request, response) => {
   return await response.json([
     {
       id: 1,

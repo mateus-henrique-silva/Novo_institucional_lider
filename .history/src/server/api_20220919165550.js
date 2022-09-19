@@ -5,8 +5,8 @@ const app = express();
 
 app.use(cors());
 
-app.get("/produtos", async (request, response) => {
-  return await response.json([
+app.get("/produtos", (request, response) => {
+  return response.json([
     {
       id: 1,
       name: "Anúncio 1",
