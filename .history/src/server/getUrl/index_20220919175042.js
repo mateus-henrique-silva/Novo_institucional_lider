@@ -5,7 +5,7 @@ function getUrl() {
   fetch(url)
     .then((response) => {
       console.log(response);
-      
+      response.json()
     })
     .catch((error) => {
       console.log(error);
