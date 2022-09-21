@@ -19,7 +19,7 @@ async function postData(url = "http://127.0.0.1:9090/produtos") {
     .then((myBlob) => {
       myBlob.map((event) => {
         apiImage.src = event.image;
-        apiTitlle.innerText = event.name;
+        apiTitlle.innerText = myBlob.name;
       });
     });
 

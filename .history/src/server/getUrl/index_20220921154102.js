@@ -17,7 +17,9 @@ async function postData(url = "http://127.0.0.1:9090/produtos") {
   fetch(myRequest)
     .then((response) => response.json())
     .then((myBlob) => {
-      myBlob.map((event) => {
+      myBlob.forEach(element => {
+        
+      });((event) => {
         apiImage.src = event.image;
         apiTitlle.innerText = event.name;
       });
